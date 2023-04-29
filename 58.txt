@@ -1,0 +1,43 @@
+npm install react-router-dom localforage match-sorter sort-by
+
+
+import React from "react";
+import ReactDOM from "react-dom/client";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import "./index.css";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <div>Hello world!</div>,
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
+
+
+
+
+
+authentication:kauke kichu korar permission dia 
+authorization: kar kon level er permission achhe.
+firebase:through third party tool(fb,google,github) for authentication.
+  ai type aro tool:okta,oAuth (agulo amra use korbona)
+encryption: sorasori text na pathay jubrijabri pathay to  protect it from hacker
+
+steps:
+initial installation: img-1
+integration: img-2
+provider(google):img-3
+
+authentication vs authorization: img-4
+
+interview qn: img-5
+firebase backend: Firebase is a Backend-as-a-Service (BaaS) app development platform that provides hosted backend services such as a realtime database, cloud storage, authentication, crash reporting, machine learning, remote configuration, and hosting for your static files. 
