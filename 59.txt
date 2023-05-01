@@ -1,0 +1,21 @@
+1. Regex to validate password strength
+    
+    ^                         Start anchor
+(?=.*[A-Z].*[A-Z])        Ensure string has two uppercase letters.
+(?=.*[!@#$&*])            Ensure string has one special case letter.
+(?=.*[0-9].*[0-9])        Ensure string has two digits.
+(?=.*[a-z].*[a-z].*[a-z]) Ensure string has three lowercase letters.
+.{8}                      Ensure string is of length 8.
+$                         End anchor.
+
+
+
+checklist:
+1.authentication using email password (registration,login)
+2.email verification
+3.password change
+4.password hide/show
+5.update user name
+
+error and success handlinG: using state
+password strength using regex
