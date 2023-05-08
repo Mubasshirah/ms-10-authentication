@@ -1,0 +1,6 @@
+favicon: photopia dia normal image ke choto korbo...export->ico
+react helmet to dynamically change title. noeto custom hook baniyeo title change kora jay
+
+***react awesome components
+* display a location and a Marker on a Google Map
+     ->react google map (in future kaje lagbe)

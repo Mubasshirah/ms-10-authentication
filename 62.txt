@@ -36,3 +36,18 @@ app.listen(port,()=>{
 data->categories.json
 
 server site e: npm install cors
+
+react icon: npm install react-icons --save
+react rating:npm install --save react-rating
+
+
+***router er kono route ke thaktei hbe and akta element thkte hbe jekhane route hbe.noeto stake link hisebe just kothau dile sta 404 error dibe
+
+*environment key
+
+
+**vercel:
+npm i -g vercel@latest
+
+
+**react awesome components
