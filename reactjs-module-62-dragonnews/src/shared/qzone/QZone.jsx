@@ -15,7 +15,7 @@ const QZone = () => {
             </div>
             <div className='mt-3 position-relative'>
                 <div className=''>
-                       <img src={bg} alt="" />
+                       <img src={bg} alt="" style={{width:'100%'}}/>
                 </div>
                 <div className='position-absolute top-50 start-50 translate-middle text-light text-center'>
                        <h2>Create an  </h2>
